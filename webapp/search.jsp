@@ -62,7 +62,9 @@
 			<hr/>
 		<% } %>
 		
+		
 		<!-- もし検索結果がなければ、　「検索結果がありませんでした。」の表示。 -->
+		
 		  <hr/>
 		  <div class="mb-5">
 		    <a href="javascript:history.back()" style="text-decoration: underline;">戻る</a>
