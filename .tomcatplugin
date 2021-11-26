@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tomcatProjectProperties>
+    <rootDir>/webapp</rootDir>
+    <workDir>work</workDir>
+    <exportSource>false</exportSource>
+    <reloadable>true</reloadable>
+    <redirectLogger>false</redirectLogger>
+    <updateXml>true</updateXml>
+    <warLocation></warLocation>
+    <extraInfo>%3CResource+name%3D%22jdbc%2Fjamyto2%22%0D%0A++++++++++removeAbandoned%3D%22true%22%0D%0A++++++++++removeAbandonedTimeout%3D%2260%22%0D%0A++++++++++logAbandoned%3D%22true%22%0D%0A++++++++++auth%3D%22Container%22+type%3D%22javax.sql.DataSource%22%0D%0A+++++++++++maxActive%3D%22150%22+maxIdle%3D%2250%22+maxWait%3D%2215000%22%0D%0A++++++++++username%3D%22root%22+password%3D%22nave2810%22%0D%0A++++++++++driverClassName%3D%22com.mysql.jdbc.Driver%22%0D%0A++++++++++url%3D%22jdbc%3Amysql%3A%2F%2Flocalhost%3A3306%2Fjamyto2%3FautoReconnect%3Dtrue%26amp%3BuseUnicode%3Dtrue%26amp%3BcharacterEncoding%3DMS932%22%2F%3E</extraInfo>
+    <mavenClasspath>false</mavenClasspath>
+    <webPath>/jamyto2</webPath>
+</tomcatProjectProperties>

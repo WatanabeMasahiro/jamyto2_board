@@ -1,0 +1,16 @@
+<Resource name="jdbc/jamyto2"
+          auth="Container" type="javax.sql.DataSource"
+          maxActive="150" maxIdle="50" maxWait="15000"
+          username="root" password="nave2810"
+          driverClassName="com.mysql.jdbc.Driver"
+          url="jdbc:mysql://localhost:3306/jamyto2?characterEncoding=UTF-8"/>
+          
+<Resource name="jdbc/jamyto2"
+          removeAbandoned="true"
+          removeAbandonedTimeout="60"
+          logAbandoned="true"
+          auth="Container" type="javax.sql.DataSource"
+           maxActive="150" maxIdle="50" maxWait="15000"
+          username="root" password="nave2810"
+          driverClassName="com.mysql.jdbc.Driver"
+          url="jdbc:mysql://localhost:3306/jamyto2?autoReconnect=true&amp;useUnicode=true&amp;characterEncoding=MS932"/>
